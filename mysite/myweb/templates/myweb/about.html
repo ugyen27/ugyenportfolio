@@ -1,0 +1,282 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>About Me</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/networking.png' %}" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: PhotoFolio - v1.0.0
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+    <a href="#" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <i class="bi bi-code"></i>
+        <h1>UGYEN</h1>
+    </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="http://127.0.0.1:8000/" class="active">Home</a></li>
+          <li><a href="http://127.0.0.1:8000/about/">About me</a></li>
+          <li><a href="http://127.0.0.1:8000/gallery/"><span>Projects</span> <i></i></a>
+          <li><a href="{% static 'pdf/cv.pdf' %}"><span>Download Cv</span> <i></i></a>
+          </li>
+          <li><a href="http://127.0.0.1:8000/services/">SKills</a></li>
+          <li><a href="http://127.0.0.1:8000/contact/">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links">
+         <a href="https://www.facebook.com/Anonymouscyhker" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/ugyen_yeshey_wangchuk/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/ugyen-wangchuk-801b55235/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            
+            <!-- <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+
+            <a class="cta-btn" href="contact.html">Available for hire</a> -->
+
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="{% static 'img/finalpro.png'%}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 content">
+            <h2>WEB DEVELOPER FROM BHUTAN</h2>
+            <p >
+             My name is Ugyen Wangchuk, and I'm passionate about using my knowledge to better the lives of others. I adore meeting people that are driven and unafraid to share their thoughts with the world since I am continuously learning new things.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>19 oct 1999</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Gender:</strong> <span>male</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+975 17781350</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>District:</strong> <span>Tashigang</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>College:</strong>GCIT <span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>12190038.gcit@rub.edu.bt</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              I have had a strong interest in understanding science since I was a little child, which is why I took science in high school.
+I enjoy singing, playing the guitar, and participating in science exhibitions in addition to designing and developing software.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Certificates</h2>
+          <p>Achievements</p>
+        </div>
+
+        <div class="slides-3 swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  This certificate is for successfully completing Responsive Web Design freeCodeCamp course(300hrs).
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'img/freecodecamp.png'%}" class="testimonial-img" alt="">
+                  <h3>Quincy Larson</h3>
+                  <h4>Executive Director</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  This certificate is for successfully completing OWASP top 10 common Cyber Security attacks! Udemy course.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'img/security.jpeg' %}" class="testimonial-img" alt="">
+                  <h3>Soerin Bipat</h3>
+                  <h4>Security consultant and Entrepreneur</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  This certificate is for successfully completing Hands-on Penetration Testing Labs 3.0 Udemy course.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'img/penetrationtesting.jpg' %}" class="testimonial-img" alt="">
+                  <h3>Jesse Kurrus</h3>
+                  <h4>Senior Penetration Tester and Technical Trainer</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  This certificate is for successfully completing UI/UX online course.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'img/ui.png'%}" class="testimonial-img" alt="">
+                  <h3>Great Learning Academy</h3>
+                  <h4>Enterprise Solutions</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  This certificate is awarded for the overall first position in class 8 with 80% aggregate.
+                </p>
+                <div class="profile mt-auto">
+                  <img src="{% static 'img/king.jpeg'%}" class="testimonial-img" alt="">
+                  <h3>King Jigme Khesar Namgyel Wangchuck</h3>
+                  <h4>King of Bhutan</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  This certificate is awarded for participating at the First National Level STEM Olympiad at Thimphu.
+                <div class="profile mt-auto">
+                  <img src="{% static 'img/national setem.jpeg'%} "      class="testimonial-img" alt="">
+                  <h3>Minister</h3>
+                  <h4>Ministry Of Education</h4>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright">
+       &copy; Copyright <strong><span>Ugyen</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
+      
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %} "></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %} "></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %} "></script>
+  <script src="{% static 'vendor/aos/aos.js' %} "></script>
+
+  <!-- Template Main JS File -->
+   <script src= "{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
